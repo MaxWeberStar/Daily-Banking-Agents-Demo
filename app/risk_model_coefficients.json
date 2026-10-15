@@ -1,0 +1,26 @@
+{
+  "version": "simulated-risk-v1",
+  "meaning": "simulated_attention_only",
+  "features": [
+    "new_recipient",
+    "amount_ratio",
+    "short_frequency",
+    "failed_codes"
+  ],
+  "scales": [
+    1.0,
+    1.0,
+    3.0,
+    3.0
+  ],
+  "weights": [
+    0.47853458,
+    1.41183463,
+    1.09447583,
+    1.3558025
+  ],
+  "intercept": -0.75153944,
+  "training_rows": 24,
+  "training_accuracy": 0.9167,
+  "training_data_sha256": "7fff171436c789d47e8934041c26ab8cea660c72fbc5a8bacd8fe47458c9b516"
+}

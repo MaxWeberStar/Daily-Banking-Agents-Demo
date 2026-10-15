@@ -1,0 +1,14 @@
+.env*
+**/.env*
+.DS_Store
+**/.DS_Store
+.pytest_cache/
+**/.pytest_cache/
+tests/
+migrations/
+README.md
+docs/adr/
+docs/handoffs/
+docs/templates/
+docs/*.md
+docs/data/*.md

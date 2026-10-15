@@ -1,0 +1,9 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "functions": {
+    "app/main.py": {
+      "includeFiles": "docs/data/seed-ledger.csv",
+      "excludeFiles": "{.env*,**/.env*,.DS_Store,**/.DS_Store,README.md,docs/adr/**,docs/handoffs/**,docs/templates/**,docs/*.md,docs/data/*.md,tests/**,migrations/**,**/.pytest_cache/**}"
+    }
+  }
+}
